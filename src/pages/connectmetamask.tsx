@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Header from "../../components/Header/Home"
 import Logomatamask from "../../public/static/images/MetaMask.png"
-const LoginSteponepage = () => {
+const connectmetamask = () => {
     const [account, setAccount] = useState("")
     const [loading, setLoading] = useState(false);
     async function handleClick() {
@@ -15,8 +15,8 @@ const LoginSteponepage = () => {
     }
     return (
         <>
-            <Header />
-            <div className=" w-full h-screen py-48 px-48  ">
+            {/* <Header /> */}
+            <div className=" w-full h-screen py-36 px-48  ">
                 <div className="text-5xl  text-center">
                     Metamask login </div>
                 <div className="flex flex-col justify-center items-center space-y-6">
@@ -32,4 +32,4 @@ const LoginSteponepage = () => {
     )
 }
 
-export default LoginSteponepage
+export default connectmetamask

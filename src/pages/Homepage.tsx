@@ -11,7 +11,7 @@ const Home = () => {
                             <img src={Logomatamask} alt="coin avatar" className="w-12 h-12 rounded-full" />
                             <div className="flex items-start justify-between w-full">
                                 <div className="pl-3 w-full">
-                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">Dogecoin nerds</p>
+                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">1</p>
                                 </div>
                                 <div role="img" aria-label="bookmark">
                                     <svg className="focus:outline-none" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +24,7 @@ const Home = () => {
                             <p className="focus:outline-none text-sm leading-5 py-4 text-gray-600">A group of people interested in dogecoin, the currency and a bit of side for the meme and dof that we all know and love. These cases are perfectly simple and easy to distinguish.</p>
                             <div className="focus:outline-none flex">
                                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                                    <Link to={"/login1"}>Button</Link>
+                                    <Link to={"/connectmetamask"}>Button</Link>
                                 </button>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ const Home = () => {
                             <div className="w-12 h-12 bg-white rounded-full flex flex-shrink-0"> <img src={Logomatamask} alt="coin avatar" className="w-12 h-12 rounded-full" /></div>
                             <div className="flex items-start justify-between w-full">
                                 <div className="pl-3 w-full">
-                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">Sale And Purchase</p>
+                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">2</p>
                                 </div>
                                 <div aria-label="bookmark" role="img">
                                     <svg className="focus:outline-none" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +48,7 @@ const Home = () => {
                             <p className="focus:outline-none text-sm leading-5 py-4 text-gray-600">A group of people interested in dogecoin, the currency and a bit of side for the meme and dof that we all know and love. These cases are perfectly simple and easy to distinguish.</p>
                             <div className="focus:outline-none flex">
                                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                                    Button
+                                <Link to={"/switchaccount"}>Button</Link>
                                 </button>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ const Home = () => {
                             </div>
                             <div className="flex items-start justify-between w-full">
                                 <div className="pl-3 w-full">
-                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">Family guy : A thread</p>
+                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">3</p>
                                 </div>
                                 <div role="img" aria-label="bookmark">
                                     <svg className="focus:outline-none" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,7 +75,7 @@ const Home = () => {
                             <p className="focus:outline-none text-sm leading-5 py-4 text-gray-600">A group of people interested in dogecoin, the currency and a bit of side for the meme and dof that we all know and love. These cases are perfectly simple and easy to distinguish.</p>
                             <div className="focus:outline-none flex">
                                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                                    Button
+                                <Link to={"/switchnetwork"}>Button</Link>
                                 </button>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ const Home = () => {
                             </div>
                             <div className="flex items-start justify-between w-full">
                                 <div className="pl-3 w-full">
-                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">DC vs Marvel</p>
+                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">4</p>
                                 </div>
                                 <div role="img" aria-label="bookmark">
                                     <svg className="focus:outline-none" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -100,7 +100,7 @@ const Home = () => {
                             <p className="focus:outline-none text-sm leading-5 py-4 text-gray-600">A group of people interested in dogecoin, the currency and a bit of side for the meme and dof that we all know and love. These cases are perfectly simple and easy to distinguish.</p>
                             <div className="focus:outline-none flex">
                                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                                    Button
+                                <Link to={"/mobileconnect"}>Button</Link>
                                 </button>
                             </div>
                         </div>
