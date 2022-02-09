@@ -8,6 +8,7 @@ import Connectmetamask from "./pages/connectmetamask"
 import Switchaccount from "./pages/switchaccount"
 import Switchnetwork from "./pages/switchnetwork"
 import Mobileconnect from "./pages/mobileconnect"
+import Addtoken from "./pages/addtoken"
 import Homes from "./pages/Homepage"
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path="/switchaccount" element={<Switchaccount />} />
         <Route path="/switchnetwork" element={<Switchnetwork />} />
         <Route path="/mobileconnect" element={<Mobileconnect />} />
+        <Route path="/addtoken" element={<Addtoken />} />
       </Routes>
 
     </BrowserRouter>

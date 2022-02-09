@@ -96,14 +96,34 @@ const Home = () => {
                                 การเชื่อมต่อกระเป๋า Metamask บน smartphone</p>
                             <div className="focus:outline-none flex">
                                 <button className="text-gray-400 cursor-not-allowed font-bold py-2 px-4 rounded-full">
-                                    <Link to={"/mobileconnect"}>Button</Link>
+                                    <Link to={"/mobileconnect"}>Coming soon !!</Link>
                                 </button>
                             </div>
                         </div>
                     </div>
+                    <div aria-label="card 1" className="focus:outline-none lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 shadow rounded space-bee transform transition duration-500 hover:scale-110">
+                        <div className="flex items-center border-b border-gray-200 pb-6">
+                            <img src={Logomatamask} alt="coin avatar" className="w-12 h-12 rounded-full" />
+                            <div className="flex items-start justify-between w-full">
+                                <div className="pl-3 w-full">
+                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">Step 5 : AddToken</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="px-2">
+                            <p className="focus:outline-none text-sm leading-5 py-4 text-gray-600">
+                                ฟังก์ชั่นสำหรับทดสอบการ Add เหรียญบน Metamask </p>
+                            <div className="focus:outline-none flex">
+                                <button className="bg-blue-200 hover:bg-blue-100 text-white font-bold py-2 px-4 rounded-full">
+                                    <Link to={"/addtoken"}>Button</Link>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
 
                 </div>
-                <div className="mt-20">
+                <div className="mt-20  text-3xl font-bold text-white">
                     <Copyright />
                 </div>
 

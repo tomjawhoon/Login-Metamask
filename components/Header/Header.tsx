@@ -20,6 +20,7 @@ const Header = () => {
                             <Menu.Item >  <Link to={"/switchaccount"}>Step 2 : Switch Account</Link></Menu.Item>
                             <Menu.Item >  <Link to={"/switchnetwork"}>Step 3 : Switch Network</Link></Menu.Item>
                             <Menu.Item >  <Link to={"/"}>Step 4 : Connect Metamask on Mobilephone</Link></Menu.Item>
+                            <Menu.Item >  <Link to={"/addtoken"}>Step 5 : Addtoken on Metamask</Link></Menu.Item>
                         </Menu.ItemGroup>
                     </SubMenu>
                 </Menu>
