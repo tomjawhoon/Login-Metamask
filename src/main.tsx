@@ -9,7 +9,6 @@ import Switchaccount from "./pages/switchaccount"
 import Switchnetwork from "./pages/switchnetwork"
 import Mobileconnect from "./pages/mobileconnect"
 import Homepage from "./pages/homepage"
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -20,7 +19,6 @@ ReactDOM.render(
         <Route path="/switchnetwork" element={<Switchnetwork />} />
         <Route path="/mobileconnect" element={<Mobileconnect />} />
       </Routes>
-      <Homepage />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
