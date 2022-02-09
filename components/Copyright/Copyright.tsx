@@ -9,7 +9,7 @@ const Copyright = () => {
                     </div>
                     <div className="flex flex-nowrap  space-x-2  justify-center items-center">
                         <div className="px-4 py-4">
-                            copyright by  <span>&#169; Aj.warodom</span>
+                            copyright by  <span>&#169; Aj.warodom </span>
                         </div>
                     </div>
                 </div>
