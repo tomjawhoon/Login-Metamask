@@ -8,13 +8,13 @@ import Connectmetamask from "./pages/connectmetamask"
 import Switchaccount from "./pages/switchaccount"
 import Switchnetwork from "./pages/switchnetwork"
 import Mobileconnect from "./pages/mobileconnect"
-import Homepage from "./pages/homepage"
+import Homes from "./pages/Homepage"
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        
-        <Route path="/" element={<Homepage />} />
+
+        <Route path="/" element={<Homes />} />
         <Route path="/connectmetamask" element={<Connectmetamask />} />
         <Route path="/switchaccount" element={<Switchaccount />} />
         <Route path="/switchnetwork" element={<Switchnetwork />} />
@@ -22,7 +22,7 @@ ReactDOM.render(
       </Routes>
 
     </BrowserRouter>
-    
+
   </React.StrictMode>,
   document.getElementById('root')
 )

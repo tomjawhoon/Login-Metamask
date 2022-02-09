@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            <div aria-label="group of cards" className="focus:outline-none w-full px-20 py-20 ">
+            <div aria-label="group of cards" className="focus:outline-none w-full px-20 py-20 bg-orange-300">
                 <div className="lg:flex items-center justify-center w-full ">
                     <div aria-label="card 1" className="focus:outline-none lg:w-4/12 lg:mr-7 lg:mb-0 mb-7 bg-white p-6 shadow rounded space-bee transform transition duration-500 hover:scale-110">
                         <div className="flex items-center border-b border-gray-200 pb-6">

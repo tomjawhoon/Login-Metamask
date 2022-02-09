@@ -54,7 +54,7 @@ const switchnetwork = () => {
     return (
         <>
             <Header />
-            <div className=" w-full h-screen   py-16 px-48  ">
+            <div className=" w-full h-screen   py-16 px-48  bg-orange-300">
                 <div className="flex flex-col">
                     <div className="text-5xl  text-center">
                         Metamask login
