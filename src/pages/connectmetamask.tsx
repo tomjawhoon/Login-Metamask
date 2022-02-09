@@ -2,16 +2,22 @@ import React from "react";
 import { useState } from "react";
 import Header from "../../components/Header/Home"
 import Logomatamask from "../../public/static/images/MetaMask.png"
+import { Button, notification } from 'antd';
+
 const connectmetamask = () => {
     const [account, setAccount] = useState("")
-    const [loading, setLoading] = useState(false);
     async function handleClick() {
-        setLoading(true);
         const accounts = await (window as any).ethereum.request(
             { method: 'eth_requestAccounts' });
         const account: string = accounts[0];
-        setAccount(account)
-        setLoading(false);
+        if (account) {
+            setAccount(account)
+            notification.open({
+                message: 'Connect success !! ',
+                description:
+                    'Connect success ',
+            });
+        }
     }
     return (
         <>

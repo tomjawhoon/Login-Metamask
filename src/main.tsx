@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './App.css'
+import 'antd/dist/antd.css';
 import App from './App'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Connectmetamask from "./pages/connectmetamask"

@@ -114,7 +114,7 @@ const Home = () => {
                             </div>
                             <div className="flex items-start justify-between w-full">
                                 <div className="pl-3 w-full">
-                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">Rick & Morty</p>
+                                    <p className="focus:outline-none text-xl font-medium leading-5 text-gray-800">5</p>
                                 </div>
                                 <div role="img" aria-label="bookmark">
                                     <svg className="focus:outline-none" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
