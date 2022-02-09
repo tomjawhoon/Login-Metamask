@@ -15,7 +15,7 @@ const LoginSteponepage = () => {
     }
     return (
         <>
-            {/* <Header /> */}
+            <Header />
             <div className=" w-full h-screen py-48 px-48  ">
                 <div className="text-5xl  text-center">
                     Metamask login </div>
