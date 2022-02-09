@@ -13,14 +13,16 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Homepage />} />
         
+        <Route path="/" element={<Homepage />} />
         <Route path="/connectmetamask" element={<Connectmetamask />} />
         <Route path="/switchaccount" element={<Switchaccount />} />
         <Route path="/switchnetwork" element={<Switchnetwork />} />
         <Route path="/mobileconnect" element={<Mobileconnect />} />
       </Routes>
+
     </BrowserRouter>
+    
   </React.StrictMode>,
   document.getElementById('root')
 )
