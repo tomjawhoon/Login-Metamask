@@ -14,6 +14,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        
         <Route path="/connectmetamask" element={<Connectmetamask />} />
         <Route path="/switchaccount" element={<Switchaccount />} />
         <Route path="/switchnetwork" element={<Switchnetwork />} />
