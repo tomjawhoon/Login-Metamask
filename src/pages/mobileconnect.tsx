@@ -2,7 +2,7 @@ const METAMASK_LINK = `https://metamask.app.link/dapp/http://localhost:3000/mobi
 const mobileconnect = () => {
     return (
         <>
-            <div className=" w-full h-screen  py-36 px-48  ">
+            <div className=" w-full h-screen  py-16 px-48  ">
                 <a target="_blank" rel="noreferrer" href={METAMASK_LINK}>
                     <button
                         className="bg-blue-500 hover:bg-blue-700 
