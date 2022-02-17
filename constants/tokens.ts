@@ -1,4 +1,4 @@
-const LENDING_TOKENS = [
+const TOKENS = [
     {
         symbol: "BNB",
         name: "Binance BNB",
@@ -39,4 +39,4 @@ const LENDING_TOKENS = [
     },
 ];
 
-export default LENDING_TOKENS
+export default TOKENS

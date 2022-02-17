@@ -1,9 +1,8 @@
-import { Modal } from "antd";
+import { Modal, notification } from "antd";
 import React from "react";
-import LENDING_TOKENS from "../../constants/tokens"
+import TOKENS from "../../constants/tokens"
 import Header from "../../components/Header/Header"
-console.log(LENDING_TOKENS)
-
+import { SmileOutlined } from '@ant-design/icons';
 export const addTokenToWallet = async (
     address: string,
     symbol: string,
@@ -33,7 +32,7 @@ export const addTokenToWallet = async (
 };
 
 const addtoken = () => {
-    const addTokenlist = (token: typeof LENDING_TOKENS[0]) => {
+    const addTokenlist = (token: typeof TOKENS[0]) => {
         addTokenToWallet(
             token.address,
             token.symbol,
@@ -85,7 +84,7 @@ const addtoken = () => {
                                     </tr>
                                 </thead>
                                 <tbody className="bg-white divide-y divide-gray-200">
-                                    {LENDING_TOKENS.map((person) => (
+                                    {TOKENS.map((person) => (
                                         <tr key={person.name}>
                                             <td className="px-6 py-4 whitespace-nowrap">
                                                 <div className="flex items-center">
@@ -106,9 +105,8 @@ const addtoken = () => {
                                             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{person.name}</td>
                                             <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
 
-                                                <button onClick={() => {
-                                                    addTokenlist(person);
-                                                }} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                                <button onClick={() => {addTokenlist(person);}} 
+                                                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                                                     Button
                                                 </button>
                                             </td>
